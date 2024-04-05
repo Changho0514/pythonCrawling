@@ -31,6 +31,7 @@ while current_date <= end_date:
     # 다음 날짜로 이동
     current_date += timedelta(days=1)
 
+
 # DataFrame으로 변환
 news_df = pd.DataFrame(all_headlines, columns=['Date', 'Headline'])
 
